@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show one</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            <h1>Show {{show.id}}</h1>
+            <a href="/">Go back</a>
+        </div>
+
+        <div class="main">
+            <p>Title:</p>
+            <p>{{show.title}}</p>
+            <p>Network:</p>
+            <p>{{show.network}}</p>
+            <p>Date:</p>
+            <p>{{show.date}}</p>
+            <p>description:</p>
+            <p>{{show.description}}</p>
+            <p>last update {{show.created_at}}</p>
+        </div>
+</body>
+</html>
